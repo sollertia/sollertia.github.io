@@ -280,13 +280,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
+      show_date: true
       comments: # true
       share: true
       related: true
 # _pages
   - scope:
       path: ""
-      type: pages
+      type: pagesS
     values:
       layout: single
       author_profile: true
