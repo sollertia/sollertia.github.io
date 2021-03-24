@@ -94,9 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "노력형 개발자 Ben"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My only competitor is yesterday's me."
+  bio              : "My only **competitor** is
+                                yesterday's **me**."
   location         : "Seoul/Korea"
   email            :
   links:
@@ -130,7 +131,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/sollertia"
+      url: "https://github.com/sollertia"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
