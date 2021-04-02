@@ -24,7 +24,9 @@
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      <small>
       {% include teaser_taxonomy.html type=include.type %}
+      </small>
     </h2>
 
   <!--  {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}-->
